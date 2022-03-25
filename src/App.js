@@ -1,8 +1,7 @@
 import {useState, useEffect} from 'react';
 import './App.css';
 
-console.log(typeof(process.env.REACT_APP_API_KEY))
-console.log(process.env.REACT_APP_API_HOST)
+
 function App() {
   const [queryData, setQueryData] = useState('')
   const [responseData, setResponseData] = useState([])
